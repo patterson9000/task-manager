@@ -1,0 +1,56 @@
+html, body{
+    padding:0;
+    margin:0;
+   height: 100vh;
+}
+
+h1{
+    margin-top:0;
+    text-align: center;
+    background-color: blue;
+    color:red;
+    padding: 7px 0;
+    margin-bottom: 0;
+}
+.main-container{
+    display:flex;
+ height: calc(100% - 52px);
+}
+.sec-list{
+flex:3;
+}
+
+.sec-form{
+flex:2;
+border: 1px solid black;
+border-radius: 10px;
+background-color: aquamarine;
+
+}
+.my-control{
+    display: block;
+    margin-bottom: 7px;
+
+}
+.my-control label{
+display: inline-block;
+width:70px;
+text-align: right;
+margin-right: 5px;
+}
+.my-control input
+.my-control select
+.my-control textarea{
+    display: inline-block;
+    padding:5px 10px;
+    width:auto;
+    
+}
+#iImportant{
+font-size: 32px;
+color: purple;
+cursor:pointer;
+}
+#iImportant:hover{
+    padding: 5px;
+}
